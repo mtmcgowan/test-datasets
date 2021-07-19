@@ -1,16 +1,7 @@
-# ![nfcore/test-datasets](docs/images/test-datasets_logo.png)
-Test data to be used for automated testing with the nf-core pipelines
+# test-datasets: `transcript_corral`
 
-## Introduction
+This branch contains test data to be used for automated testing with the [nf-core/transcript_corral](https://github.com/SystemsGenetics/) pipeline.
 
-nf-core is a collection of high quality Nextflow pipelines.
+## Content of this repository
 
-## Documentation
-nf-core/test-datasets comes with documentation in the `docs/` directory:
-
-01. [Add a new  test dataset](https://github.com/nf-core/test-datasets/blob/master/docs/ADD_NEW_DATA.md)
-02. [Use an existing test dataset](https://github.com/nf-core/test-datasets/blob/master/docs/USE_EXISTING_DATA.md)
-
-## Support
-
-For further information or help, don't hesitate to get in touch on our [Slack organisation](https://nf-co.re/join/slack) (a tool for instant messaging).
+`testdata/*.fastq.gz`: Paired-end RNAseq Illumina 150bp sequencing data from Lens culinaris leaf tissue sub-sampled to 1 million reads
